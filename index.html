@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66f1795aca.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.jpg" alt="my-logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Jatin</span><br>Yadav From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------About----------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-1">
+                    <img src="images/About.jpg" alt="">
+                </div>
+                <div class="about-2">
+                    <h1 class="subs">About Me</h1>
+                    <p>Meet a passionate website developer Jatin Yadav and my curiosity extends beyond the screen. With
+                        a fervent interest in JavaScript, HTML, and CSS, I tend to delve into the intricacies of web
+                        development, constantly pushing the boundaries of what's possible in digital spaces. My
+                        expertise lies in crafting seamless user experiences and captivating designs that resonate with
+                        audiences. Beyond the realms of code, I am an explorer at heart, drawn to discovering the
+                        wonders of the world. Whether navigating through lines of code or traversing new landscapes.
+                        I aspire to mark my journey by a relentless pursuit of knowledge and adventure.</p>
+
+                    <div class="titles">
+                        <p class="links active-links" onclick="showContent(0)">Skills</p>
+                        <p class="links" onclick="showContent(1)">Experience</p>
+                        <p class="links" onclick="showContent(2)">Education</p>
+                    </div>
+                    <div class="titles-content active-content">
+                        <ul>
+                            <li><span>Full Stack Development</span><br>Building Android/iOS apps & web solutions.</li>
+                            <li><span>Front-End Development</span><br>Crafting engaging web interfaces.</li>
+                            <li><span>Back-End Development</span><br>Architecting robust server solutions for web applications.</li>
+                        </ul>
+                    </div>
+                    <div class="titles-content">
+                        <ul>
+                            <li><span>HTML 5</span><br>2 Year Experience</li>
+                            <li><span>CSS 3</span><br>2 Year Experience</li>
+                            <li><span>javaScript</span><br>1 Year Experience</li>
+                            <li><span>React.js</span><br>6 month Experience</li>
+                        </ul>
+                    </div>
+                    <div class="titles-content">
+                        <ul>
+                            <li><span>2018</span><br>CBSE Board</li>
+                            <li><span>2020</span><br>NIOS Board</li>
+                            <li><span>2023</span><br>BCA From MDU University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------services----------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Front-End Development involves creating the visual part of a website or web application,
+                        including the layout, design, and interactivity that users interact with. It focuses on
+                        client-side technologies such as HTML, CSS, and JavaScript.</p>
+                    <p>I can develop a responsive and user friendly web application using HTML,
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Back-End Development involves building and maintaining the server-side of web applications. It
+                        includes managing databases, implementing business logic, and ensuring the smooth functioning of
+                        the application. Technologies commonly used in Back-End Development include languages such as
+                        Python, Java,and frameworks like Node.js, Django, and Laravel.</p>
+                    <p>Using Node.js, Express framework I can create the server side of your web application.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------Contact----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="titles">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>yadavshiv633@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9310760925</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Good Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea type="Message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
